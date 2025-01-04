@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://coin-change-be-ejfxdcg7dwhqdech.canadacentral-01.azurewebsites.net"
