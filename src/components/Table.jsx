@@ -3,7 +3,7 @@ import React from "react";
 
 const Table = () => {
     return(
-        <table className={"table table-striped table-striped-columns text-center"}>
+        <table className={"table table-striped table-striped-columns text-center table-primary"}>
             <thead>
             <tr>
                 <th scope={"col"}>Denomination</th>
