@@ -52,9 +52,9 @@ const Body = () => {
                                             setAmount(0);
                                             setValidRange(false);
                                         } else {
-                                            if (parseInt(e.target.value) <= 10000) {
+                                            if (parseFloat(e.target.value) <= 10000) {
                                                 setValidRange(true);
-                                                setAmount(parseInt(e.target.value));
+                                                setAmount(parseFloat(e.target.value));
                                             } else {
                                                 setValidRange(false);
                                             }
